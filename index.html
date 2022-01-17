@@ -9,13 +9,16 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play aphasia.</tw-noscript></noscript></tw-story>
-<tw-storydata name="aphasia" startnode="1" creator="Twine" creator-version="2.3.15" ifid="C3B45E2B-C3CA-4034-A183-C847AAC86BBC" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-link { color:#FFFAFF; }
-.enchantment-link:hover, tw-link:hover { color: #DAFEB7; }
+<tw-storydata name="aphasia" startnode="1" creator="Twine" creator-version="2.3.16" ifid="C3B45E2B-C3CA-4034-A183-C847AAC86BBC" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-link { color:#FFFAFF; }
+.enchantment-link:hover, tw-link:hover {
+  	color: #DAFEB7;
+	text-decoration:none;}
 
 .a{
 	font-family:'Yu Gothic UI Light', serif;
   	font-size: 5vmin;
   	text-align:center;
+  	
 }
 
 .p{
@@ -28,49 +31,45 @@
     background-size:50%;
 	position: absolute;
 }
+
 img{
 	display:inline-block;
 	height: 50%;
   	width:50%;
 	position: relative;
-  	top: -350px;
-  	left: -500px;
-  	z-index:10;
-}
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="intro" tags="" position="51,127" size="100,100">(align:&quot;==&gt;&quot;)[=
+  
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="intro" tags="" position="486,545" size="100,100">(align:&quot;==&gt;&quot;)[=
 &lt;span style=&quot;font-size: 200%&quot;&gt;失語症&lt;/span&gt;
 
 &lt;p&gt;
 作者群：袁沛恩、林宇柔、蕭珺文
 課程名稱：多線互動敘事工作坊
 
-&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E9%A6%96%E9%A0%81#.E5.A4.B1.E8.AA.9E.E7.97.87&quot;&gt;&lt;b style=&quot;color:#ABEFE1;&quot;&gt;設定資料集&lt;/a&gt;&lt;/b&gt;
+&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E9%A6%96%E9%A0%81#.E5.A4.B1.E8.AA.9E.E7.97.87&quot;&gt;&lt;b style=&quot;color:#ced4da;&quot;text-decoration:nonetext-decoration:none&gt;設定資料集&lt;/a&gt;&lt;/b&gt;
 
 [[故事開始-&gt;funeral]]
 
 &lt;/p&gt;
-&lt;img src=&quot;https://github.com/ktee0111/aphasia/blob/main/%E4%B8%BB%E8%A6%96%E8%A6%BA%E4%B8%80.png?raw=true&quot; width=&quot;300&quot; height=&quot;300&quot; style=&quot;float:right&quot;&gt;
-
 
 
  (put: (&quot;女孩&quot;) into $Name)
  (put:(0) into $sick)
- </tw-passagedata><tw-passagedata pid="2" name="bookstealgame" tags="" position="1128,0" size="100,100">這邊會是偷書的互動遊戲
+ </tw-passagedata><tw-passagedata pid="2" name="bookstealgame" tags="" position="1564,420" size="100,100">這邊會是偷書的互動遊戲
 [[偷到並且沒被發現-&gt;readbook]]
 [[偷到但被懷疑(圖書館積分減)-&gt;readbook]]
-[[沒偷到而且被抓到(故事結束??)-&gt;gameend]]</tw-passagedata><tw-passagedata pid="3" name="broadcast" tags="" position="882,0" size="100,100">回家聽到廣播
+[[沒偷到而且被抓到(故事結束??)-&gt;gameend]]</tw-passagedata><tw-passagedata pid="3" name="broadcast" tags="" position="1318,420" size="100,100">回家聽到廣播
 
 (?)這裡會有贊同廣播的選擇(增加對陰謀的積分)
-[[隔天去上班-&gt;work]]</tw-passagedata><tw-passagedata pid="4" name="follow" tags="" position="1407,0" size="100,100">跟蹤同事
+[[隔天去上班-&gt;work]]</tw-passagedata><tw-passagedata pid="4" name="follow" tags="" position="1843,420" size="100,100">跟蹤同事
 
-</tw-passagedata><tw-passagedata pid="5" name="work" tags="" position="1001,0" size="100,100">回到圖書館上班
+</tw-passagedata><tw-passagedata pid="5" name="work" tags="" position="1437,420" size="100,100">回到圖書館上班
 
 (?)這裡會有贊同圖書館的選擇(增加對圖書館的積分)
-[[潛入辦公室-&gt;bookstealgame]]</tw-passagedata><tw-passagedata pid="6" name="gameend" tags="" position="1412,109" size="100,100">故事結束??(badend?)</tw-passagedata><tw-passagedata pid="7" name="readbook" tags="" position="1262,0" size="100,100">試圖讀書(感覺可以加個讀書的小遊戲，並且根據書讀得越久，異象的積分越多?)
+[[潛入辦公室-&gt;bookstealgame]]</tw-passagedata><tw-passagedata pid="6" name="gameend" tags="" position="1848,529" size="100,100">故事結束??(badend?)</tw-passagedata><tw-passagedata pid="7" name="readbook" tags="" position="1698,420" size="100,100">試圖讀書(感覺可以加個讀書的小遊戲，並且根據書讀得越久，異象的積分越多?)
 
 
 (text-style:&quot;shudder&quot;)[加個特效]
-[[跟蹤同事-&gt;follow]]</tw-passagedata><tw-passagedata pid="8" name="funeral" tags="" position="24,273" size="100,100">
+[[跟蹤同事-&gt;follow]]</tw-passagedata><tw-passagedata pid="8" name="funeral" tags="" position="460,693" size="100,100">
 灰黑色的石碑默默佇立在剛修剪乾淨的草坪，鼻腔沾黏著纖維被切割後的滲出的水氣與腥味，而空氣安靜的像是沒有人在呼吸。
 
 他幾乎站在隊伍的最末端，他的長官在遠方的講台上似乎有永遠也講不完的話，眼前脫去了制服的人群一個個像是整齊排列的玩具士兵，像是眼前往地平線無限延伸的空白石碑，毫無特色又死氣沉沉。
@@ -78,14 +77,16 @@ img{
 天空依然是灰濛濛的一片。
 
 他只記得他似乎是為了一點什麼站在此處，但他的只覺得腦袋好像少了一塊，認知與記憶從某個孔縫滴滴答答的滲出無從抓取。
+(display:&quot;tombstone&quot;)
+
 [[&gt;-&gt;funeral_1]]
 
 
 
 
-</tw-passagedata><tw-passagedata pid="9" name="guy" tags="" position="122,577" size="100,100">
+</tw-passagedata><tw-passagedata pid="9" name="guy" tags="" position="558,997" size="100,100">
 「你還好嗎?」一個聲音突兀的從後方傳來，連帶的一隻手掌拍上肩膀扶住差一步就要跌倒的他。
-
+(display:&quot;id&quot;)
 那一掌拍散他混亂的妄想，對方頂著一頭顯然未經整理的雜亂頭髮，凹陷的眼窩顯示出對方昨晚的睡眠體驗或許不夠舒適，掛在胸前的識別證上畫著大大的※。
 
 是他的同事，姑且能被稱以※代指。
@@ -94,7 +95,7 @@ img{
 
 [[…我很好。-&gt;※]]
 [[…你怎麼會在這裡？-&gt;※]]
-]</tw-passagedata><tw-passagedata pid="10" name="※" tags="" position="176,200" size="100,100">
+]</tw-passagedata><tw-passagedata pid="10" name="※" tags="" position="612,620" size="100,100">
 「沒，我那邊的工作結束了，想說順便－」對方語氣誠懇，連帶極為失禮的打了一個大大的哈欠，接著又像突然意識到甚麼一般打了自己一巴掌「－順便來看看你的狀況，嗯…令尊的事，我很抱歉。」
 
 ※手上拿著一疊資料，當他終於看清楚資料封面照片上頭的臉孔，他才有種被從水中打撈起來的錯覺。他嗆了一口氣，氣管在一瞬間被抽乾又重新填入氧氣，他的視線終於回歸正常。
@@ -102,29 +103,32 @@ img{
 他是來參加葬禮的。
 
 [[&gt;-&gt;※_1]]
-</tw-passagedata><tw-passagedata pid="11" name="danger" tags="" position="329,203" size="100,100">文字是危險的。
+</tw-passagedata><tw-passagedata pid="11" name="danger" tags="" position="765,623" size="100,100">文字是危險的。
 
 在數十年前發生第一起因&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E5%88%86%E9%A1%9E:%E4%BA%8B%E5%AF%A6&quot;&gt;&lt;b style=&quot;color:#EE4105;&quot;&gt;「異像」&lt;/a&gt;&lt;/b&gt;造成的意外之後，人類社會有了翻天覆地的變化，最初那幾年根據爸爸所言確實，難以想像的破壞範圍、無從得知感染源而快速擴散、毫無控制可能的激烈症狀，但在&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E5%88%86%E9%A1%9E:%E7%B5%84%E7%B9%94#.E5.9C.96.E6.9B.B8.E9.A4.A8&quot;&gt;&lt;b style=&quot;color:#EE4105;&quot;&gt;圖書館&lt;/a&gt;&lt;/b&gt;帶領之下，隨著對異像的了解加深，到他出生後，異像已經變成生活的一部分，人們下意識地排除紙張與書籍已成自然，嚇唬小孩的故事劇情從過去叫警察把你抓走變成叫圖書館員來讀書給你看。
-
+(display:&quot;book&quot;)
 但恐懼是有時效性的，他們為求生存發展出的控管政策確實有效排除了異像對生活的影響，包括他自己也深受影響，抱持著輕鬆的心態加入了至今最前線研究異像的組織……一直到爸爸出事後他才真正直面到這個形象已經模糊不清的概念。
 
-[[&gt;-&gt;danger_1]]</tw-passagedata><tw-passagedata pid="12" name="flipover" tags="" position="600,598" size="100,100">
+[[&gt;-&gt;danger_1]]</tw-passagedata><tw-passagedata pid="12" name="flipover" tags="" position="1036,1018" size="100,100">(set: $sick to $sick+10)
+
 ＞顫抖著手，他將書本翻過來，封面和封底一般用燙金印出漂亮的字型，隨然已經隨著時間而有些磨損，幾處的邊緣捲起帶著黏性的殘膠，封面上的線條對他來說毫無意義，他只看的出來那應該確實是「文字」的一部分，爸爸是因為這個才接觸到「異像」的嗎？手指沿著硬挺的書脊滑過，摸到一點細碎的紙屑，他又想起剛剛在他耳邊細語的那個聲音。
 
 「你不好奇嗎？」
 
 他深吸一口氣。
 
-[[&gt;-&gt;flipover_1]]</tw-passagedata><tw-passagedata pid="13" name="report" tags="" position="500,201" size="100,100">
+[[&gt;-&gt;flipover_1]]</tw-passagedata><tw-passagedata pid="13" name="report" tags="" position="936,621" size="100,100">
 「等一下！為什麼這種東西會在這裡？」收拾完散落一地的東西，※一把搶走他手中的書本順帶撞翻了他手中的紙箱，※迅速的依照員工手冊的緊急處理步驟，脫掉自己的外套遮住整本書後完整的包起來。
 「你有看到什麼嗎？」※的語氣嚴肅了起來，一邊把處理好的書交給一旁的其他員工。
 他愣愣地搖了搖頭。
 「那就好…抱歉，應該是我們這邊的沒有注意到，把實驗室那邊的東西不小心混進來了……你最好還是注意一下這幾天有沒有奇怪的症狀，雖然機率很小，但不知道剛剛那樣會不會有不小心接觸到的狀況。」
 ※一臉擔憂的看著他，他則蹲下開始整理剛剛翻落的紙箱。
 「真的要小心。」他接過※遞來的盆栽，卻對上一雙神色複雜的雙眼。
+
 他下意識地咽了口口水。
 
-[[&gt;-&gt;day end]]</tw-passagedata><tw-passagedata pid="14" name="home" tags="" position="704.5,449" size="100,100">回到家後，他把紙箱扔在地上，
+[[&gt;-&gt;day end]]</tw-passagedata><tw-passagedata pid="14" name="home" tags="" position="1140.5,869" size="100,100">
+回到家後，他把紙箱扔在地上，
 銀色的收音機倒在桌上，他伸手
 
 (link:&quot;按開收音鍵撥放廣播&quot;)[
@@ -138,39 +142,62 @@ img{
 
 [[隔天-&gt;moring]]
 ]
-</tw-passagedata><tw-passagedata pid="15" name="day end" tags="" position="687.5,193" size="100,100">
+</tw-passagedata><tw-passagedata pid="15" name="day end" tags="" position="1123.5,613" size="100,100">
 葬禮結束後，他的同事們回到辦公室繼續工作，他卻無論如何都沒有辦法靜下心來完成今日的代辦事項。
 他的主管似乎也沒有對他抱有期待，反正意外後的應急處理到今天也差不多靠一個段落，就早早放他離開。
+
 夕陽帶著迷幻的色彩，過度鮮豔的橘紅撒在街道上形成某種濃稠的流體，隨著樹葉間隙或是偶爾飛過的野鳥不時攪動，他一直覺得氣管被什麼東西堵塞，卻又無從抓住那點虛無的感受。
+
 一直到回到家後，他才覺得眼前水氣朦朧了起來。
 
-[[&gt;--&gt;home]]</tw-passagedata><tw-passagedata pid="16" name="moring" tags="" position="824.5,200" size="100,100">
+[[&gt;--&gt;home]]</tw-passagedata><tw-passagedata pid="16" name="moring" tags="" position="1260.5,619" size="100,100">
 陽光透過窗戶的裂縫滲進室內，他張開眼睛。
+
 鬧鐘晚了幾秒響起，他幾乎是下意識的摁下關機鍵成功讓尖銳的電子音停下，在坐起身的那一瞬間缺氧的腦部讓他的視線暗了幾秒，大腦依然昏昏沉沉的，卻沒有前幾天毫不留情攻擊他大腦的痛楚，他當作是意外後短暫的創傷症候群造成的生理不適。
 
 
-[[&gt;-&gt;moring_1]]</tw-passagedata><tw-passagedata pid="17" name="moring_1" tags="" position="826.5,449" size="100,100">桌上安靜的收音機意外的勾起一點違和感，以前鬧鐘對他而言比起工具更像是擺設，每天五點半就會醒來的爸爸會在起床後處理早餐，在靠近七點的時候打開收音機，一邊聽著斷斷續續的新聞速報和不時搶走撥放權限的陰謀論製造機──爸爸總是這麼稱呼這個神秘組織──¶的「節目」。
+[[&gt;-&gt;moring_1]]</tw-passagedata><tw-passagedata pid="17" name="moring_1" tags="" position="1262.5,869" size="100,100">
+桌上安靜的收音機意外的勾起一點違和感，以前鬧鐘對他而言比起工具更像是擺設，每天五點半就會醒來的爸爸會在起床後處理早餐，在靠近七點的時候打開收音機，一邊聽著斷斷續續的新聞速報和不時搶走撥放權限的陰謀論製造機──爸爸總是這麼稱呼這個神秘組織──¶的「節目」。
+(display:&quot;radio&quot;)
 爸爸甚至會邊聽邊反駁收音機發出的荒謬言論，以往他總是被爸爸和收音機吵架的聲音吵醒，偶爾他就躺在床上靜靜聽著播音內容，¶的主講人是個乾淨的女聲，只是在糟糕的設備下播出的聲音總是有些沙啞，他們討論的內容大半是對於異像的調查與猜測，雖然絕大部分的人都認為異像正如圖書館提出的是某種神祕的新型疾病，但仍舊有不少人認為事情並非這麼簡單。
+
 他
+
 [[打開收音機-&gt;open]]
 [[去做早餐-&gt;close]]
-</tw-passagedata><tw-passagedata pid="18" name="open" tags="" position="1015.5,367" size="100,100">他像是爸爸一直以來的習慣一樣，打開了收音機。
+</tw-passagedata><tw-passagedata pid="18" name="open" tags="" position="1450.5,787" size="100,100">
+他像是爸爸一直以來的習慣一樣，打開了收音機。
+
 裡面一如既往地充斥著雜訊，和人聲扭曲的絞成一團，但斷斷續續可以聽見內容，聲音逐漸填滿原本略顯空虛的環境，他似乎找回了一點熟悉的感覺。
+
 現在是¶定時的節目時間，天知道他們哪來那麼多通訊資源讓他們整天播送節目，就連當前作為最大非官方組織的圖書館都沒有辦法與之抗衡，導致很多資訊都還要透過員工在各處社區穿梭傳達。
+
 「……上個禮拜圖書館一次外勤工作發生員工接觸「異像」的意外，進而造成了三個人死亡和七個人受傷，其中兩個到現在還無法醒來；作為我國當前最大異像對策機關，發生這種事情個人可以說是相當…意外，但你覺得這只是單純的工作疏失嗎？還是又有什麼背後的勢力在操作？」
+
 「我自己認為這絕對沒有那麼簡單，根據我這邊的調查，上個月圖書館的高層才經歷過一次大換血，這絕對涉及背後政治勢力的鬥爭……」
+
 他大概知道位什麼爸爸總是忍不住想和收音機吵架了，他默默啃完桌上留下的最後一塊麵包，將自己的一幅整理好後，掛上畫著大大＞的識別證，走出了家門。
-[[繼續-&gt;gotowork]]</tw-passagedata><tw-passagedata pid="19" name="close" tags="" position="1025.5,228" size="100,100">正如意外帶著爸爸就此消失，爸爸也帶著一大早的環境噪音離去。
+
+[[&gt;-&gt;gotowork]]</tw-passagedata><tw-passagedata pid="19" name="close" tags="" position="1460.5,651" size="100,100">
+正如意外帶著爸爸就此消失，爸爸也帶著一大早的環境噪音離去。
+
 他整理衣服、刷牙漱口、看著鏡子裡的自己，眼角泛紅，但他卻不記得自己哭過，空間安靜地讓他聽的見空氣的流動，今天的空氣依然帶著濕氣，讓他覺得他的視野依然帶著朦朧的霧氣，時鐘指針逐漸轉向八點，是時候動身了。
+
 他默默啃完桌上留下的最後一塊麵包，將自己的一幅整理好後，掛上畫著大大＞的識別證，走出了家門。
-[[繼續-&gt;gotowork]]</tw-passagedata><tw-passagedata pid="20" name="gotowork" tags="" position="1148.5,226" size="100,100">他居住的社區是個寧靜的小型聚落，房子幾乎都是在異像後重建的，不超過二十年的歲月讓他們相比起工作的區域看起來更加新穎，這個時間已經有些人在外活動，他和住在隔壁的大叔打了聲招呼，把掉出襯衫口袋的識別證重新塞回去，嗅到某家在燉煮肉類的香味混雜著腐爛落葉的濕潤觸感，鋪著柏油的小徑一路延伸到社區門口，小型巴士已經等在道路盡頭，他加快腳步跟上，直到經過佇立在不遠處的深黑色的建築。
+[[繼續-&gt;gotowork]]</tw-passagedata><tw-passagedata pid="20" name="gotowork" tags="" position="1584.5,646" size="100,100">
+他居住的社區是個寧靜的小型聚落，房子幾乎都是在異像後重建的，不超過二十年的歲月讓他們相比起工作的區域看起來更加新穎，這個時間已經有些人在外活動，他和住在隔壁的大叔打了聲招呼，把掉出襯衫口袋的識別證重新塞回去，嗅到某家在燉煮肉類的香味混雜著腐爛落葉的濕潤觸感，鋪著柏油的小徑一路延伸到社區門口，小型巴士已經等在道路盡頭，他加快腳步跟上，直到經過佇立在不遠處的深黑
+色的建築。
+
 不對。
+
 …那棟宅邸從以前就在了嗎？他不禁停下腳步，就此佇立在原地。
+
 宅邸的窗戶有剛被擦過的水痕，在陽光照耀下反射出些微色差，三樓透出橘紅色的燈光，在漆黑的外牆對比下顯得相當明顯，他甚至可以看到某些窗框上掛著各種風鈴一類的裝飾，隨著風發出細碎的聲響。
 而二樓處掛著灰白色的窗簾突然被微微掀開，探出一個女孩的臉孔。
 
 女孩的頭髮是少見的銀灰色。
-[[繼續-&gt;see]]</tw-passagedata><tw-passagedata pid="21" name="see" tags="" position="1140.5,365" size="100,100">......
+[[&gt;-&gt;see]]</tw-passagedata><tw-passagedata pid="21" name="see" tags="" position="1576.5,785" size="100,100">(display:&quot;bookcase&quot;)
+......
 疑問一但萌芽就是深根。
 「你今天是怎麼了？」※的聲音打斷他的思緒
 ＞盯著他手中對著大量書本的推車，為了防範實驗之外接觸異像的可能性，書本一向使用布遮蓋住外封面封底，僅使用帶著不同顏色的紙張作為分類，顯而易見的，他甚至把好幾本畫有藍色標籤的書本塞到了錯誤的書架上。
@@ -179,7 +206,7 @@ img{
 [[「有點累了。」-&gt;tired]]
 [[「一直在想，當時父親到底看到了什麼。」-&gt;whatever]]
 [[「在社區遇到奇怪的人。」-&gt;stranger]]
-</tw-passagedata><tw-passagedata pid="22" name="tired" tags="" position="1297.5,226" size="100,100">
+</tw-passagedata><tw-passagedata pid="22" name="tired" tags="" position="1733.5,646" size="100,100">
 「我知道意外才結束不久，所有人也都告訴你請個喪假不是什麼會被上頭否決的事情」※皺起眉頭，一次抽出兩本他放錯的書本丟回正確的架上
 「圖書館都幾百年沒出過這種大包了，讓你直接放有薪假到年末再加十個月年終當補償都不應該是問題，你到底為什麼還執意要回來受苦受難？」
 「在家太安靜了。」
@@ -187,7 +214,7 @@ img{
 「我很抱歉。」
 「這不是誰的錯。」
 
-[[&gt;-&gt;done]]</tw-passagedata><tw-passagedata pid="23" name="whatever" tags="" position="1274.5,525" size="100,100">「我其實不太記得當下到底發生什麼，只知道爸爸好像看到了什麼，但還來不及說什麼就發作了。」
+[[&gt;-&gt;done]]</tw-passagedata><tw-passagedata pid="23" name="whatever" tags="" position="1710.5,945" size="100,100">「我其實不太記得當下到底發生什麼，只知道爸爸好像看到了什麼，但還來不及說什麼就發作了。」
 「這我也很好奇，雖然這邊用好奇好像怪怪的，但當天在一線的人要嘛在醫院，要嘛已經…離開了，我們這群後續負責善後調查的也不太能推斷到底發生了什麼。」
 ※皺起眉頭，一次抽出兩本他放錯的書本丟回正確的架上，接著幾乎無法令人察覺到的咋舌。
 「…我只知道，事件中的傷亡，似乎都－」
@@ -196,7 +223,7 @@ img{
 「……」
 「不要用這種眼神看我！」※撇開頭「…當天的傷亡，應該都是你父親一人造成的。」
 [[「一個人?」-&gt;hitori]]
-</tw-passagedata><tw-passagedata pid="24" name="stranger" tags="" position="1294.5,365" size="100,100">「奇怪的人」※露出古怪的表情「圖書館到處都是奇怪的人，你指的是哪個？」
+</tw-passagedata><tw-passagedata pid="24" name="stranger" tags="" position="1730.5,785" size="100,100">「奇怪的人」※露出古怪的表情「圖書館到處都是奇怪的人，你指的是哪個？」
 「我是在我住的社區看到。」
 「你們社區才多大，怎麼會有你不知道的人。」
 「這才是問題，我不知道為什麼─我是指─我知道不可能在毫無動靜的情況下憑空冒出一棟建築」＞回想的過程中，又感覺到雞皮疙瘩爬上他的後頸「但我真的對那棟漆黑的宅邸沒印象，他的外表看起來像是被荒廢了三十年。」
@@ -204,7 +231,7 @@ img{
 「但那不是廢墟，裡面有－」
 [[家具更換的跡象，甚至有燈光-&gt;light]]
 [[裡面有人，而且，看她的年紀不可能一個人住在這。」-&gt;inhouse]]
-</tw-passagedata><tw-passagedata pid="25" name="light" tags="" position="1428.5,301" size="100,100">「如果有人在居住的話，那怎麼可能你在之前會完全不知道有這棟建築的存在？」
+</tw-passagedata><tw-passagedata pid="25" name="light" tags="" position="1864.5,720" size="100,100">「如果有人在居住的話，那怎麼可能你在之前會完全不知道有這棟建築的存在？」
 
 對啊，怎麼可能？
 
@@ -213,7 +240,7 @@ img{
 但不可能就連那個女孩都是個誤會。＞欲言又止，如果光是這部分※就無法相信，那如果提出女孩的存在只會更糟糕。
 ＞沉默下來，他的手突然摸到一個熟悉的觸感。
 ※突然的沉默沒有影響到他，雖然隔著一層布，但少見的硬質書封和已經不分脫落的燙金字體，他的鼻子因為覆蓋在書頁內的灰塵而感到微微的搔癢，他忍住噴嚏，僵硬的把手挪往下一本書。
-[[......-&gt;done]]</tw-passagedata><tw-passagedata pid="26" name="inhouse" tags="" position="1418.5,446" size="100,100">「小孩？」
+[[......-&gt;done]]</tw-passagedata><tw-passagedata pid="26" name="inhouse" tags="" position="1854.5,866" size="100,100">「小孩？」
 「我看到有一個女孩從二樓探出頭來。」
 「你確定這不是見鬼了？」※半開玩笑的回答「或是那種嫌意外不夠多的小屁孩整天往危險的地方竄」
 「看起來不像。」
@@ -221,11 +248,11 @@ img{
 「但－」
 「你說的建築到底長什麼樣子？我好歹跟你住在同一個社區，你描述一下我不就知道到底有沒有這個地方。」※不知不覺間又快清空他的推車「好讓我確定一下你只是單純記性不好還是真的被異像燒壞了腦子。」
 [[「房子外牆是全黑的，在靠近社區門口的小徑盡頭，我看見那個小孩的地方在二樓最左側的房間。」-&gt;black]]
-[[「一棟三層樓的建築，你也知道社區中幾乎沒有幾棟超過兩層樓的房子，應該很好認」-&gt;triple]]</tw-passagedata><tw-passagedata pid="27" name="hitori" tags="" position="1403.5,600" size="100,100">「對，所以才說事情很奇怪。」※清空自己的推車，開始幫忙整理他的推車。
+[[「一棟三層樓的建築，你也知道社區中幾乎沒有幾棟超過兩層樓的房子，應該很好認」-&gt;triple]]</tw-passagedata><tw-passagedata pid="27" name="hitori" tags="" position="1839.5,1020" size="100,100">「對，所以才說事情很奇怪。」※清空自己的推車，開始幫忙整理他的推車。
 「我們已經...很久沒有遇到發作後攻擊性這麼強的個體了，第一個和第二個幾乎是被他用空手扯開頸動脈，就連後續…制服你父親的過程，都讓好幾個全副武裝的防衛部門員工受了傷。」
 
 [[「……」-&gt;hitoru_1]]
-</tw-passagedata><tw-passagedata pid="28" name="whoscall" tags="" position="1798.5,500" size="100,100">「我覺得－」對講機突然響起，沙啞的電子音從中傳出，※幾乎在一瞬間就按下接聽鍵。
+</tw-passagedata><tw-passagedata pid="28" name="whoscall" tags="" position="2234.5,920" size="100,100">「我覺得－」對講機突然響起，沙啞的電子音從中傳出，※幾乎在一瞬間就按下接聽鍵。
 對方的聲音失真的相當嚴重，他完全無法理解※是如何聽懂對面在說什麼的。
 「－呃抱歉，我知道一規定來說我不能在上架的時候離開，但我部門那邊的同事有急事叫我過去一趟」※暴躁的抓起對講機簡要的回答了幾句，＞甚至聽到幾個不太優雅的詞彙「剩下這些你有辦法處理嗎？」
 ＞不小心捏皺了包裹著書本的布料「…可以。」
@@ -240,14 +267,14 @@ img{
 [[「帶走書」-&gt;pickup]]
 [[「帶走書」-&gt;pickup]]
 [[「帶走書」-&gt;pickup]]
-</tw-passagedata><tw-passagedata pid="29" name="hitoru_1" tags="" position="1555.5,652" size="100,100">
+</tw-passagedata><tw-passagedata pid="29" name="hitoru_1" tags="" position="1991.5,1072" size="100,100">
 「現場留下的痕跡也很微妙，他還用血在地板上畫了一些奇妙的圖案，感覺很像某種會在邪教儀式中出現的東西，我們無從得知你父親到底確切是「看見」什麼。」
 「…這比我想像的要更嚴重。」
 「對…而且、」※欲言又止「…我覺得重要的是他那時候拿著不該在那裏出現的東西。」
 ＞突然冒出不好的預感。
 「你父親當時，手中握著那本書。」※眼神飄移「暗紅色封皮的那本精裝書，他原本應該被鎖在實驗室內的。」
 
-[[&gt;-&gt;whoscall]]</tw-passagedata><tw-passagedata pid="30" name="black" tags="" position="1551.5,401" size="100,100">
+[[&gt;-&gt;whoscall]]</tw-passagedata><tw-passagedata pid="30" name="black" tags="" position="1987.5,821" size="100,100">
 ＞停下動作，他的手摸到一個熟悉的觸感。
 ※突然的沉默沒有影響到他，雖然隔著一層布，但少見的硬質書封和已經不分脫落的燙金字體，他的鼻子因為覆蓋在書頁內的灰塵而感到微微的搔癢，他忍住噴嚏，僵硬的把手挪往下一本書。
 「我現在覺得你應該是燒壞了」沉默良久的※終於出聲「那棟房子…外觀不是全黑的吧。」
@@ -255,12 +282,12 @@ img{
 「而且在我印象中那棟房子的持有應該是個單身中年大叔，他在前幾年就搬走了，我也不記得他有其他家屬。」
 
 [[「我確定我有看到一個十歲出頭的女孩。」-&gt;whoscall]]
-</tw-passagedata><tw-passagedata pid="31" name="triple" tags="" position="1552.5,527" size="100,100">
+</tw-passagedata><tw-passagedata pid="31" name="triple" tags="" position="1988.5,947" size="100,100">
 「聽起來好像是靠近門口那棟？我只知道那邊之前一直荒廢著，可能最近有人來處理吧。」※滿不在乎的說
 ＞則突然停下動作，他的手摸到一個熟悉的觸感。
 他的指夾刮過書本蓋上的軟布，底下是少見的硬質書封，那種介於灰塵與纖維碎片之間的陳舊氣味鑽進他的鼻腔，頭痛一瞬間炸裂又消逝。
 
-[[&gt;-&gt;whoscall]]</tw-passagedata><tw-passagedata pid="32" name="done" tags="" position="1664.5,192" size="100,100">
+[[&gt;-&gt;whoscall]]</tw-passagedata><tw-passagedata pid="32" name="done" tags="" position="2100.5,612" size="100,100">
 一直到他們工作結束，他都沒有再去碰那本書。
 「你今天的效率真的不太行欸」※將推車收進一旁的小倉庫，瘸著腿一拐一拐的走回他旁邊「...你還在看什麼？為什麼這裡還有一本書？」
 「......」
@@ -273,13 +300,13 @@ img{
 「走吧，別管了，早點回去休息比較好。」※先行朝資料室外走了出去。
 ＞愣愣的點點頭，關燈後將資料室連著著那本他不想看見的書本鎖上。
 
-[[&gt;-&gt;break]]</tw-passagedata><tw-passagedata pid="33" name="pickup" tags="" position="1998.5,501" size="100,100">
+[[&gt;-&gt;break]]</tw-passagedata><tw-passagedata pid="33" name="pickup" tags="" position="2435.5,919" size="100,100">
 
 當意識回籠時，那本精裝書已經躺在他的座位底下。
 ※一直到他結束整理的工作後都沒有出現，他所處的部門說不上大，就連上班時間都是輪班制，今天只剩下他和另一名女性－她的識別證上畫著一個三角形與圓形結合成的圖案－他一如既往的整理近期的資料，在貼有員工大頭照的紙張底下黏上打著不同繩結的細緞帶，表示他們工作的班表排程。
 直到辦公室只剩下他一個人，他才緊張兮兮地確認守門的警衛不在崗位上，又將辦公室的門鎖起。
 
-[[將書從椅子下抽出-&gt;think]]</tw-passagedata><tw-passagedata pid="34" name="think" tags="" position="1999.5,651" size="100,100">
+[[將書從椅子下抽出-&gt;think]]</tw-passagedata><tw-passagedata pid="34" name="think" tags="" position="2435.5,1071" size="100,100">
 
 他記得根據圖書館研究下來的成果，會不會受異象影響似乎與知不知道與字應對的意義有關。
 「－所以你們這些新生代草莓族照理來說，感染的可能性比我們小的多」他想起進入圖書館前，負責帶培訓的老師那副倚老賣老的嘴臉「搞不好再下一代會從此免疫也說不定，到時候圖書館防衛組就可以全團打包回家囉。」
@@ -288,20 +315,20 @@ img{
 
 [[把布掀開-&gt;bookopen]]
 [[直接把書塞進背包-&gt;putinbag]]
-</tw-passagedata><tw-passagedata pid="35" name="bookopen" tags="" position="1999.5,800" size="100,100">
+</tw-passagedata><tw-passagedata pid="35" name="bookopen" tags="" position="2435.5,1219" size="100,100">
 
 其實會覺得這就是那本書也只是直覺，並沒有確定性的事證，不是嗎？
 這只是為了確認，＞告訴自己，這只是為了確認，如果不是那本，他就要好好的把它放回資料室。
 他摸到固定厚布的封條，上頭還在微微反光的特殊印製記號象是一種警告，＞小心翼翼的完整撕開，接著掀開米色的布料。
 
-[[掀開-&gt;de1]]</tw-passagedata><tw-passagedata pid="36" name="putinbag" tags="" position="2149.5,501" size="100,100">
+[[掀開-&gt;de1]]</tw-passagedata><tw-passagedata pid="36" name="putinbag" tags="" position="2585.5,921" size="100,100">
 
 ＞用自己的外套在書本的外頭又多包裹了一層，不然圖書館制式的布料實在太好辨認。
 在辦公室隨意打開實在太危險，尤其若是在辦公區域中，如果真的造成甚麼損害，不但對隔天要來上班的人相當危險，要是連帶破壞到環境與數十年來收集於此的研究資料都會附之一矩，更不用說還在進行中的實驗數據與研究成果...他決定將其帶回家中再思考下一步。
 於是他將裹好的書本塞進他的背包，確定今天的工作內容確實結束後，將辦公室的燈關上後離開了圖書館。
 
-[[＞-&gt;gohome_0]]</tw-passagedata><tw-passagedata pid="37" name="de1" tags="" position="2177.5,698" size="100,100">(set: $sick to $sick+10)
-熟悉的暗紅色封面在白熾燈泡飯泛著光，封面依然是斑駁的燙金字體，＞起初不敢直視，但發現似乎也未發生什麼奇怪的事情，＞漸漸的放下了戒心。
+[[＞-&gt;gohome_0]]</tw-passagedata><tw-passagedata pid="37" name="de1" tags="" position="2621.5,1097" size="100,100">(set: $sick to $sick+10)
+熟悉的暗紅色封面在白熾燈泡下泛著光，封面依然是斑駁的燙金字體，＞起初不敢直視，但發現似乎也未發生什麼奇怪的事情，＞漸漸的放下了戒心。
 他看著金色線條勾勒出的文字，書寫確實是一種藝術，他想，線條與線條間的舒張、稜角與弧線的配搭，還有墨水在紙張上暈染的深淺不一，他沉浸在這種美妙的藝術欣賞活動中數十秒，才打算翻開內頁。
 
 下一刻，文字突然動了起來。
@@ -311,19 +338,19 @@ img{
 封面的金線開始扭動，從邊緣染黑色，筆畫的盡頭開始無盡延長，直到線條開始纏上他的手指勾搭上他的頸項，他才發現自己已經被套牢，像是在擁抱一條巨蟒，他感受到氣管在肌肉組織的擠壓之下脆弱的開裂，脊骨刺穿他的背部，血絲像是墨水一般在他的襯衫上擴散。
 
 [[伸手反抗。-&gt;del_1]]
-(if: $sick &gt; 30)[
+(if: $sick &gt;= 20)[
 	[(goto: &quot;DE0&quot;)]
 	(else:)[(goto:&quot;del_1&quot;)]
 ]
 
-</tw-passagedata><tw-passagedata pid="38" name="gohome_0" tags="" position="2299.5,501" size="100,100">
+</tw-passagedata><tw-passagedata pid="38" name="gohome_0" tags="" position="2735.5,921" size="100,100">
 
 該如何是好？
 他一時衝動就把書夾帶回來了，公車剛好經過一處未經修整的空地，他感受的到厚重的書本在因為顛簸隨著背包彈起又落下，公車上的廣播不知道什麼時候又被「陰謀論製造機」搶走權限，他
 
 [[戴上耳機-&gt;gohome_1]]
 [[什麼都不做-&gt;listen]]
-</tw-passagedata><tw-passagedata pid="39" name="gohome_1" tags="" position="2501.5,301" size="100,100">
+</tw-passagedata><tw-passagedata pid="39" name="gohome_1" tags="" position="2937.5,721" size="100,100">
 
 他看著手錶指針轉了半圈，車輪踩上社區門口的草皮時，那種特殊的焦躁感又纏上他的脖子，心跳聲一下下打在他的耳膜上，＞覺得自己像是某個做了壞事又自己心虛的小孩在窩藏剛偷來的糖果。
 雖然他確實做了壞事。
@@ -337,7 +364,8 @@ img{
 他想起那棟不存在於記憶中的宅邸。
 
 
-[[繞道去看一下那棟宅邸-&gt;mansion]]</tw-passagedata><tw-passagedata pid="40" name="listen" tags="" position="2452.5,676" size="100,100">
+[[繞道去看一下那棟宅邸-&gt;mansion]]</tw-passagedata><tw-passagedata pid="40" name="listen" tags="" position="2885.5,1099" size="100,100">
+(set: $sick to $sick+10)
 公車司機明顯的嘖了一聲，但他也發現現場興致勃勃的人還不少。
 「...近期有人假扮成圖書館工作人員，潛入並試圖外洩有關近期造成三人死亡、七人重傷的意外的資料，在資料到手前被工作人員揭穿而被拘留數日。」
 「...因為造事者身分為當地有權有勢人家的兒子，他們召集人手到圖書館總部抗議，甚至演變成肢體衝突。造事者被放出來之後被發現有被下藥而意識昏迷，醒來後只記得片段記憶，這些片段記憶被其他人拼湊，去世的圖書館員工是為了揭發圖書館使用異像當生化武器的英雄，高層為了滅口而殺死他...」
@@ -346,23 +374,30 @@ img{
 &gt;對內容嗤之以鼻，卻又不自覺被內容吸引。
 
 如果爸爸的死確實與某人的陰謀相關...
-[[&gt;-&gt;gohome_1]]</tw-passagedata><tw-passagedata pid="41" name="loss" tags="" position="2799.5,299" size="100,100">
+(if:$sick &gt;= 20)[(align:&quot;&lt;==&quot;)+(box:&quot;X&quot;)[[[「   」 -&gt;DE0]]]]
+(else:)[(align:&quot;&lt;==&quot;)+(box:&quot;=X&quot;)[[[＞-&gt;know]]]]</tw-passagedata><tw-passagedata pid="41" name="loss" tags="" position="3235.5,719" size="100,100">
 
 謎團太多，他決定先解決其中一個。
-回到家中，他重新把書本拿出來。</tw-passagedata><tw-passagedata pid="42" name="mansion" tags="" position="2599.5,728" size="100,100">謎團太多，他決定先解決其中一個。
+回到家中，他重新把書本拿出來。</tw-passagedata><tw-passagedata pid="42" name="mansion" tags="" position="3035.5,1148" size="100,100">
+謎團太多，他決定先解決其中一個。
+
 當他靠近社區入口處那片小樹林時，他又看見了那棟坐落於小徑盡頭的漆黑建築，現在他可以看見牆壁上還被大量的青苔與枯死的爬藤覆蓋，從外觀來看確實很像已經棄置多年的古怪廢墟，但現在他可以看見在厚重的窗簾之後透出些微燈光，在漸暗的天色下越來越明顯。
+
 宅邸是確實存在的，裏頭有確實有人居住，他再度確定自己並沒有瘋。
+
 他將自己藏在樹叢之中，嘗試從更近的距離觀察這棟神秘的建築，直到他聽到一陣略顯混亂的腳步聲，他自覺的蹲下嘗試隱藏自己。
+
 透過枝葉間隙，他看見遠方有個身影。
+
 在那棟他不記得曾經存在的宅邸旁邊，那個身影在夕陽下拉出細長的斜影，接著在他看不到的某個死角被吞沒於建築的影子之中。
 
-[[向前跟上-&gt;mansion_1]]</tw-passagedata><tw-passagedata pid="43" name="mansion_1" tags="" position="2725.5,728" size="100,100">
+[[向前跟上-&gt;mansion_1]]</tw-passagedata><tw-passagedata pid="43" name="mansion_1" tags="" position="3161.5,1148" size="100,100">
 
 為什麼他會在這裡？
 偏頭痛又開始發作，他的視線一瞬間扭曲又恢復正常，現在藏在他背包中的書本變得異常沉重，他的喉嚨變得乾澀。
 他認出那頭蓬亂的頭髮，和因為腳傷而無法正常平衡的背影。
 
-[[&gt;-&gt;mansion_2]]</tw-passagedata><tw-passagedata pid="44" name="mansion_2" tags="" position="2599.5,852" size="100,100">
+[[&gt;-&gt;mansion_2]]</tw-passagedata><tw-passagedata pid="44" name="mansion_2" tags="" position="3035.5,1272" size="100,100">
 
 現在回想起來，今天下午的※確實不太對勁，光是會在工作中離開崗位這件事本身就不符合常理，雖然他平時看起來漫不經心的，但對待工作絕對是數一數二的嚴肅。
 所以今天他在完全沒有告知的前提之下直接離開辦公室…就算是同事或是上司的要求，他一定也會做好工作上的交接。
@@ -372,18 +407,35 @@ img{
 
 [[先觀察-&gt;observe]]
 [[跟上-&gt;DE2]]
-</tw-passagedata><tw-passagedata pid="45" name="observe" tags="" position="2723.5,850" size="100,100">貿然靠近太危險了。
+</tw-passagedata><tw-passagedata pid="45" name="observe" tags="" position="3159.5,1270" size="100,100">貿然靠近太危險了。
 漆黑建築身處的環境周遭有相當多的樹叢，他壓低身子試圖在不顯眼的前提下盡可能靠近宅邸。
 未經修剪的刺藤和灌木刮過他暴露在外的手臂，＞感受到他的左手側被其中一段樹枝劃出傷口甚至開始滲血，液體染濕他的袖口，直到靠近宅邸的左側面，他才發現在宅邸外圍還有一圈深黑色的鐵柵欄擋住去路。
 ※剛剛到底是從哪邊進去的他其實也不太確定，只知道應該是從側門或是不顯眼的
 看著眼前帶有年代感的磚牆，右腳受傷的※不可能從這邊翻越。
 [[於是他繼續往裡前進。-&gt;mansion_3]]
-</tw-passagedata><tw-passagedata pid="46" name="DE2" tags="" position="2599.5,1200" size="100,100">眼看※快要消失在他的視野內，他左右環顧，確定四周肉眼可見之處後便邁開步伐，快速的跟了上去。
-※拖著一條傷腿為什麼還可以跑那麼快？＞氣喘吁吁的跟在他後面，
+</tw-passagedata><tw-passagedata pid="46" name="DE2" tags="" position="3036.5,1620" size="100,100">
+眼看※快要消失在他的視野內，他左右環顧，確定四周肉眼可見之處後便邁開步伐，快速的跟了上去。
+※拖著一條傷腿為什麼還可以跑那麼快？＞氣喘吁吁的跟在他後面，濕潤的草皮包覆他的鞋間，他踏出的每一步被濕潤的土壤沾黏，拖慢他的腳步。
 
-痛楚幾乎將他撕成兩半。
+一瞬間的痛楚幾乎將他撕成兩半。
 
-＞低頭，看見</tw-passagedata><tw-passagedata pid="47" name="mansion_3" tags="" position="2848.5,728" size="100,100">
+＞低頭，看見鮮豔的紅從他的胸口滾落。
+耳膜因為剛剛的槍響還有些癢麻，&gt;的雙腿再也無法負荷身體的重量而跪下。
+
+「404!」熟悉的嗓音在他耳邊響起，他用僅存的力氣朝聲音來源望去，看見※一拐一拐地朝他跑來，臉色相當難看。
+「我說過給我處理就好!我--」
+「你處理的方式就是讓已經察覺到的人直接殺來我們這邊。」嘶啞的女聲從上方響起，&gt;透過眼角餘光看見站在宅邸陽台處的女人，帶著一頭灰色的短髮，手上拿著一把獵槍。
+「...」
+
+世界像是沉浸在水裡。
+
+兩人的爭論聲逐漸模糊，他感受到一雙手壓著他的胸口，但溫度不斷流失，自己彷彿從剛剛開出的洞口不斷流出。
+
+最後的畫面是燃燒般的夕陽。
+
+===&gt;
+(link: &quot;結束&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]
+(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="47" name="mansion_3" tags="" position="3284.5,1148" size="100,100">
 現在他已經來到建築的背面，可能因為長期背陽導致這側前面上的植被比前門處更加茂盛，他剛剛明明是在這邊看到他的進入宅邸之內，＞跟著宅邸周圍被人踩出的路徑，濕潤的泥土上頭還有數十個凌亂的腳印交錯重疊，直到靠近他才發現宅邸的牆面並非完全筆直，在左側有一塊凹進去的區域，透過已經鏽跡斑斑的金屬圍籬，他可以看見裏頭是一處小型花圃。
 
 然後他聽到了聲音，隔著磚間的縫隙傳來了細碎的人聲。
@@ -403,13 +455,13 @@ img{
 ]
 
 [[&gt;-&gt;mansion_4]]
-&lt;!--[[躲進樹林-&gt;mansion_31]]--&gt;</tw-passagedata><tw-passagedata pid="48" name="mansion_4" tags="" position="2972.5,729" size="100,100">
+&lt;!--[[躲進樹林-&gt;mansion_31]]--&gt;</tw-passagedata><tw-passagedata pid="48" name="mansion_4" tags="" position="3408.5,1149" size="100,100">
 ＞的腦袋嗡嗡作響，聲音大到他幾乎無法聽清他們的談話內容，顯然※有除了圖書館員外有其他「正職」、又或是他今天會意外發現這本書也是因為他從中推動，鈍痛感尖錐般緩緩敲進他的側腦，思緒則像是紛飛的紙張散落一地，他嘗試撿起還有清晰畫記的其中幾頁，卻發現在泥濘的浸染之下筆跡向外擴散渲染，糊作一堆無法看清的污漬。
 腳步聲漸行漸遠，但談話還在持續，＞現在知道會拿到這本書絕非偶然，但他們會希望他拿到這本書的原因又是什麼，還有意外當下，父親真的拿著這本書嗎？
 他試圖找出進入宅邸的道路，但圍欄彷彿沒有盡頭，他聽下腳步，挫折的站在草皮上微微隆起的土丘。
 
 「－你好？」一個稚嫩的聲音在相當靠近他的地方響起。
-[[回頭-&gt;mansion_5]]</tw-passagedata><tw-passagedata pid="49" name="mansion_5" tags="" position="2848.5,851" size="100,100">
+[[回頭-&gt;mansion_5]]</tw-passagedata><tw-passagedata pid="49" name="mansion_5" tags="" position="3284.5,1271" size="100,100">
 ＞呼吸亂了一秒。
 他上次見到的那個女孩不知道從何處冒出來，隔著宅邸前院的圍籬，光著腳踩在濕軟的草堤上，垂落的右手抓著一本書，書頁在晚風中啪拉啪拉的換頁，一頭銀白的頭髮在月光照耀下閃閃發光。
 「你為什麼會在這裡？這裡不太常有人經過。」
@@ -417,7 +469,7 @@ img{
 
 [[「這棟房子什麼時候有住人了？」-&gt;when]]
 [[「你手上的書是哪來的？」-&gt;where]]
-</tw-passagedata><tw-passagedata pid="50" name="mansion_31" tags="" position="3002.5,500" size="100,100">雖然他在</tw-passagedata><tw-passagedata pid="51" name="when" tags="" position="2849.5,977" size="100,100">「我住在這邊很久了」女孩臉上沒甚麼表情「大概十年左右？」
+</tw-passagedata><tw-passagedata pid="50" name="mansion_31" tags="" position="3438.5,920" size="100,100">雖然他在</tw-passagedata><tw-passagedata pid="51" name="when" tags="" position="3285.5,1397" size="100,100">「我住在這邊很久了」女孩臉上沒甚麼表情「大概十年左右？」
 ＞開始覺得自己肯定是燒壞了腦袋。
 「但我好像沒有在這附近見過你？」
 「因為我身體不太好」女孩毫不遲疑的回答「我不太有離開宅邸的機會。」
@@ -427,13 +479,13 @@ img{
 距離靠近之後他才發覺對方那頭短髮被剪得參差不齊，但被打理成這樣得本人似乎沒有對這點表達異議。
 
 [[「你叫什麼名字?」-&gt;name]]
-</tw-passagedata><tw-passagedata pid="52" name="where" tags="" position="2974.5,852" size="100,100">
+</tw-passagedata><tw-passagedata pid="52" name="where" tags="" position="3410.5,1272" size="100,100">
 「這是我的生日禮物」女孩站起眉頭，似乎對於他的指控感到相當不滿「又不是什麼特別的東西。」
 不，怎麼可能會不特別？
 「你不知道異象嗎？現在書本跟文字是有對策管制的，為了防止更多意外…與死亡發生。」＞想到爸爸，修正了部分措辭「……如果這東西是你父母帶回來的，我可能有需要上報並和合法調查你們。」
 「啊，該不會你是那個什麼圖書館的人？」女孩眼睛一亮「&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E5%88%86%E9%A1%9E:%E4%BA%BA%E7%89%A9#&quot;&gt;&lt;a style=&quot;color:#EE4105;&quot;&gt;405&lt;/a&gt;常說的那種。」
 
-[[「405？」-&gt;405]]</tw-passagedata><tw-passagedata pid="53" name="405" tags="" position="3100.5,852" size="100,100">
+[[「405？」-&gt;405]]</tw-passagedata><tw-passagedata pid="53" name="405" tags="" position="3536.5,1272" size="100,100">
 「負責照顧我的人。」女孩語氣在不自覺間透露出他的興奮之情「他說圖書館裡都是一群跟著手冊做事、按表操課的無聊人」
 「才沒有，我們在做很有意義的工作。」
 「那你都在幹嘛？」
@@ -442,7 +494,8 @@ img{
 「是不識字，我不確定在這個年代下有人會在感染的風險下去嘗試學習認字。」
 「但我會呀」女孩拿起手上的書晃了晃，接著抱回雙臂之間「我也沒像你說的那樣感染什麼可怕的疾病。」
 
-[[...-&gt;mansion_6]]</tw-passagedata><tw-passagedata pid="54" name="mansion_6" tags="" position="3100.5,973" size="100,100">一瞬間，＞終於意識到自己仍舊在嘗試潛入眼前這這棟詭異建築的途中，只是在遇到瓶頸的時候恰好遇見這個看似毫無殺傷力的女孩，但她終究和掌管宅邸的團體有所牽連，而且根據她的說法與對現今社會明顯不足的認識，這個團體很有可能和圖書館並非友軍。
+[[...-&gt;mansion_6]]</tw-passagedata><tw-passagedata pid="54" name="mansion_6" tags="" position="3536.5,1393" size="100,100">
+＞終於意識到自己仍舊在嘗試潛入眼前這這棟詭異建築的途中，只是在遇到瓶頸的時候恰好遇見這個看似毫無殺傷力的女孩，但她終究和掌管宅邸的團體有所牽連，而且根據她的說法與對現今社會明顯不足的認識，這個團體很有可能和圖書館並非友軍。
 「你看得懂字，卻沒有被感染？」
 「什麼感染？為什麼會感染？」$Name理所當然地反問
 「你真的不知道異象？」＞的手掌被冷汗浸濕「你看書之後沒有產生任何奇怪的症狀，沒有身體上的不適、沒有－」
@@ -451,11 +504,15 @@ img{
 「沒有很多，但405他們會給我看以前的教學錄影，再不懂的他們也會教我查「字典」。」
 「那-」＞想起圖書館資料室中大量的錄音資料，以及他還在他背包中的書本
 [[「在看書之後，你看見了什麼？」-&gt;god]]
-[[「你知道這本書嗎?」-&gt;ask]]</tw-passagedata><tw-passagedata pid="55" name="god" tags="" position="3100.5,1126" size="100,100">「403他們也整天問我這個問題」$Name突然警戒了起來「為什麼你也要問？」
+[[「你知道這本書嗎?」-&gt;ask]]</tw-passagedata><tw-passagedata pid="55" name="god" tags="" position="3536.5,1544" size="100,100">
+「403他們也整天問我這個問題」$Name突然警戒了起來「為什麼你也要問？」
+
 「我爸爸因為看了書之後－死掉了。」親口說出來的感覺相當微妙「根據我們的調查資料，絕大部分的人在接觸異象之後都會聲稱自己「看見」某種東西，我只是很好奇他在感染之後到底看見了什麼，才讓他做出...一些激烈的舉動」他想起調查內中令人不適的敘述，簡約了用詞
+
 「...你為什麼要一直把這件事稱做「感染」?我明明健康的很。」$Name一改前面的用詞「你是想問「神」的事情嗎?」
 [[「神?」-&gt;god_1]]
-</tw-passagedata><tw-passagedata pid="56" name="ask" tags="tw-passage" position="3222.5,974" size="100,100">＞從背包拿出了書本。
+</tw-passagedata><tw-passagedata pid="56" name="ask" tags="tw-passage" position="3658.5,1394" size="100,100">
+＞從背包拿出了書本。
 「那你知道這本書嗎？」
 ＞透過圍欄的間隔將還包著布的書本塞了進去，女孩遲疑了一下後才接過
 「為什麼要用布包起來」$Name在拆封的同時丟出疑問。
@@ -467,16 +524,20 @@ $Name在他的眼前毫無畏懼的布掀開，＞下意識的別過眼，只聽
 「所以是什麼？」
 「你看我這邊一下。」
 
-[[轉過頭-&gt;closer]]</tw-passagedata><tw-passagedata pid="57" name="god_1" tags="" position="3224.5,1125" size="100,100">「至少403他們是這樣稱呼它的。」
+[[轉過頭-&gt;closer]]</tw-passagedata><tw-passagedata pid="57" name="god_1" tags="" position="3660.5,1545" size="100,100">
+「至少403他們是這樣稱呼它的。」
 「什麼意思。」
 「我似乎確實看的到403口中一直提到的「神」，但我不確定這和你說的東西是不是同一個。」
 「...」
+
 「他長的很特別，像是很多線條纏繞構成，但他一直在改變，隨然一直以來都是黑色，但不論是形狀、大小還是氣味，每次看見時都會不太一樣。」$Name的有聲有色的描述「但他會聽我的話，在我希望他停下來的時候，他會就固定在原本的地方不動，也不會亂變換形狀。」
+
 頭痛一如既往的尖銳，＞覺得有一股熱流衝上他的臉頰，他向$Name更靠近一些，這女孩似乎確實是感染者，她對於幻覺的描述與其他患者資料上的提供的描述相當類似，黑色、線條、扭曲，但不知為何，徵狀在他身上並沒有發生。
+
 女孩似乎並沒有畏懼。
 
 [[「你不會害怕嗎？」-&gt;god_m]]
-[[「你需要接受治療」-&gt;god_m]]</tw-passagedata><tw-passagedata pid="58" name="god_m" tags="" position="3396.5,1127" size="100,100">
+[[「你需要接受治療」-&gt;god_m]]</tw-passagedata><tw-passagedata pid="58" name="god_m" tags="" position="3832.5,1547" size="100,100">
 「我從來沒有畏懼過，但為什麼你們總是這麼害怕？」
 「你一直稱之為感染、認為「看見」是一種病，是值得害怕的事情，才是最有趣的事情。」$Name笑出來「你爸爸和我那些瘋掉的朋友們只是「看到太多」不該看的東西，他們根本不是生病。」
 
@@ -491,7 +552,7 @@ $Name在他的眼前毫無畏懼的布掀開，＞下意識的別過眼，只聽
 「但-」
 
 [[「神不存在」-&gt;thereisnogod]]
-[[「你又是怎麼知道的?」-&gt;none_]]</tw-passagedata><tw-passagedata pid="59" name="thereisnogod" tags="" position="3398.5,1299" size="100,100">
+[[「你又是怎麼知道的?」-&gt;none_]]</tw-passagedata><tw-passagedata pid="59" name="thereisnogod" tags="" position="3834.5,1719" size="100,100">
 「神從來都不存在。」女孩沒有要反駁的意思「你比我想像的無聊太多了。」
 
 「我只相信科學」＞沉寂了幾秒之後說「我知道我們的研究不只是空穴來風，我們的研究確實找出了一定規律，包含接觸文字的方法和可能造成的影響，我們--」
@@ -508,7 +569,7 @@ $Name在他的眼前毫無畏懼的布掀開，＞下意識的別過眼，只聽
 
 「זˆ‘ה¸ח¥י“ה½ ז˜¯ה»€י÷¼ז¨£ח„ו˜ו¨」
 [[「זˆ‘ה¸ח¥י“ה½ ז˜¯ה»€י÷¼ז¨£ח„ו˜ו¨」-&gt;0000ff]]
-</tw-passagedata><tw-passagedata pid="60" name="none_" tags="" position="3551.5,1149" size="100,100">
+</tw-passagedata><tw-passagedata pid="60" name="none_" tags="" position="3987.5,1569" size="100,100">
 「我不知道，」$Name說「只是從小403就跟我說他是神，405認為403說的都是對的，404從來沒有告訴我她在想什麼。」
 「_2說它是一汪由腐土與泥濘揉合成的泥團、_4說是一片咧嘴笑著的影子、某些廣播說它是一種生化毒氣、你現在又告訴我它是一種隨時可能殺死人的疾病。」
 她身後的樹突然有段樹枝被風吹斷掉落，狠狠砸在$Name的背後，但她完全不為所動。
@@ -524,7 +585,7 @@ $Name在他的眼前毫無畏懼的布掀開，＞下意識的別過眼，只聽
 「從來沒有人試圖去了解別人看見的是什麼。」
 
 [[閉眼-&gt;openyoureyes]]
-[[睜眼-&gt;closeyoureyes]]</tw-passagedata><tw-passagedata pid="61" name="0000ff" tags="" position="3602.5,1301" size="100,100">
+[[睜眼-&gt;closeyoureyes]]</tw-passagedata><tw-passagedata pid="61" name="0000ff" tags="" position="4038.5,1721" size="100,100">
 「他來了，他一直都在。」
 $Name從鼻腔發出一聲恥笑。
 「結果你還是跟他們一模一樣。」
@@ -532,7 +593,7 @@ $Name從鼻腔發出一聲恥笑。
 
 世界在旋轉。
 
-[[「זˆ‘ה¸ח¥י“ה½ ז˜¯ה»€י÷¼ז¨£ח„ו˜ו¨」-&gt;DE3]]</tw-passagedata><tw-passagedata pid="62" name="name" tags="" position="2975.5,976" size="100,100"> (put: (&quot;none_0&quot;) into $Name)
+[[「זˆ‘ה¸ח¥י“ה½ ז˜¯ה»€י÷¼ז¨£ח„ו˜ו¨」-&gt;DE3]]</tw-passagedata><tw-passagedata pid="62" name="name" tags="" position="3411.5,1394" size="100,100"> (put: (&quot;none_0&quot;) into $Name)
 「...&lt;a href=&quot;http://139.162.77.108/mediawiki/index.php/%E5%88%86%E9%A1%9E:%E4%BA%BA%E7%89%A9#none_0&quot;&gt;&lt;b style=&quot;color:#EE4105;&quot;&gt;$Name&lt;/a&gt;&lt;/b&gt;」女孩念出一串像是代號的東西「聽起來...很怪」
 
 確實很詭異，這種編碼式的命名讓＞想到實驗室中的小白鼠。
@@ -546,7 +607,7 @@ $Name的不自在表露於臉上，她將手上的書本移至胸前抱緊，＞
 
 不正常，這絕對不正常。
 
-[[...-&gt;mansion_6]]</tw-passagedata><tw-passagedata pid="63" name="closer" tags="" position="3276.5,834" size="100,100">
+[[...-&gt;mansion_6]]</tw-passagedata><tw-passagedata pid="63" name="closer" tags="" position="3712.5,1254" size="100,100">
 
 眼前是已經開始泛黃的書頁。
 ＞無法控制的驚叫一聲，又想起自己還在潛伏的狀態之中，只能用手掐住自己的喉嚨克制自己不堪入耳的慘叫。
@@ -562,10 +623,12 @@ $Name則是毫無芥蒂的笑出聲，可能因為他本身的聲量就不大，
 
 [[引起這一切的主謀-&gt;none_0]]
 [[本質-&gt;none_0]]
-[[現象-&gt;none_0]]</tw-passagedata><tw-passagedata pid="64" name="DE3" tags="" position="3797.5,1301" size="100,100">
+[[現象-&gt;none_0]]</tw-passagedata><tw-passagedata pid="64" name="DE3" tags="" position="4233.5,1721" size="100,100">
 眼前一片漆黑。
 那已經不是他看不看的見的問題，那顏色黑的徹底，深層而不詳的堆疊在他的瞳孔上，無數「生命」糾結於他的眼前，攀附於他熟悉的社區景色，他看見一雙又一雙腳、一對眼睛睜的膛大，陰影在陰影更深之處扭動，他的腦袋因為過度的負荷開始承載不住。
+
 於是他發現腳下的草皮不知道什麼時候變成一片虛無，他開始墜落，手中的書皮開始發燙近乎燃燒，但他無法鬆手。
+
 他感覺到整整四隻手，輕柔地托住他的身體，讓他想到小時候，他抬眼看見滿頭的星星刺得他眼眶發痛，氧氣稀薄，他依然在沉沒。
 
 突然的刺痛撕裂他的身體，他或許被撕扯成兩半，或許沒有，哪裡有滴滴答答的黏稠水聲沿著他的軀幹下墜，然後被吞食進黑暗之中，他伸出手，只看見剛剛緊抱著書的那隻手殘留著漆黑的焦灼痕跡，煙鏽味搔刮他的鼻腔。
@@ -581,7 +644,7 @@ $Name則是毫無芥蒂的笑出聲，可能因為他本身的聲量就不大，
 
 
 
-</tw-passagedata><tw-passagedata pid="65" name="none_0" tags="" position="3398.5,700" size="100,100">
+</tw-passagedata><tw-passagedata pid="65" name="none_0" tags="" position="3834.5,1120" size="100,100">
 
 「不管是什麼，這都不是最重要的問題。」$Name說「我親眼見過，所以我知道確實有什麼東西存在在那，也知道確實有人因為他而死傷，問題在於我們應該如何「稱呼他」」
 「......」
@@ -595,7 +658,7 @@ $Name則是毫無芥蒂的笑出聲，可能因為他本身的聲量就不大，
 ＞想到那個無處不在的聲音。
 「我的信仰讓他可以變成任何東西。」
 
-[[「......」-&gt;none_0_1]]</tw-passagedata><tw-passagedata pid="66" name="none_0_1" tags="" position="3597.5,699" size="100,100">
+[[「......」-&gt;none_0_1]]</tw-passagedata><tw-passagedata pid="66" name="none_0_1" tags="" position="4033.5,1118" size="100,100">
 「你相信我嗎？」$Name睜開眼睛，那對帶著笑意的瞳孔讓他說不出話，他的手附上$Name雙手捧著的書，冷汗幾乎浸透他的衣服。
 「我－」
 
@@ -620,17 +683,18 @@ $Name則是毫無芥蒂的笑出聲，可能因為他本身的聲量就不大，
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]]
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]]
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]]
+==&gt;&lt;==
+&lt;a style=&quot;color:#03050D;&quot;&gt;[[「－不。」]]&lt;/a&gt;
 &lt;===
-&lt;a style=&quot;color:#03252D;&quot;&gt;[[「－不。」]]&lt;/a&gt;
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]]
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]]
 [[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]][[「相信」-&gt;E2]]
-</tw-passagedata><tw-passagedata pid="67" name="E2" tags="" position="3999.5,801" size="100,100">
+</tw-passagedata><tw-passagedata pid="67" name="E2" tags="" position="4436.5,1217" size="100,100">
 $Name露出一個淺淺的微笑。
 「那你不翻開嗎？」
 ＞這次毫不遲疑地翻開了書。
 
-在看到內頁的開始，接連數面他的無法看懂，但$Name在他的耳邊一字一句的讀給他聽，解釋詞彙，詮釋理念，圖像化的場景在他的腦海中開始浮現，他開始感受到這份屬於數十年前人類的專屬活動帶來的興奮與感動，閱讀--他想，重複咀嚼這份文字，甚至讓他咬出了一種類似纖維的香味。
+在看到內頁的開始，接連數面他無法看懂任何內容，但$Name在他的耳邊一字一句的讀給他聽，解釋詞彙，詮釋理念，圖像化的場景在他的腦海中開始浮現，他開始感受到這份屬於數十年前人類的專屬活動帶來的興奮與感動，閱讀--他想，重複咀嚼這份文字，甚至讓他咬出了一種類似纖維的香味。
 
 他開始看見了。
 他身處的世界出現類似墨水暈染的線條，繁複而華麗的繾綣於他的身周，$Name沒有停下朗讀，他也沒有停下他的感受，他越深入了解，就越加看清過往數十年他到底錯過了多少美景。
@@ -648,21 +712,26 @@ $Name沒有回答。
 
 ===&gt;
 (link: &quot;結束&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]
-(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="68" name="「－不。」" tags="" position="3799.5,599" size="100,100">「那你相信什麼？」none_0的表情如常，沒有要爭辯的意思。
+(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="68" name="「－不。」" tags="" position="4236.5,1018" size="100,100">
+「那你相信什麼？」$Name的表情如常，沒有要爭辯的意思。
 「我搞不懂，所以我無法相信一切正如你所說。」
-「你還有什麼有疑問的地方嗎？」none_0此時不再盯著他看，反而看著他身後不遠處。
-「如果正如你所說，異象確實受人的想法影響，那要如何」
-「你的說法像是我們從一開始就身處異象之中。」
-「所以」
+「你還有什麼有疑問的地方嗎？」$Name此時不再盯著他看，反而看著他身後不遠處。
+「如果正如你所說，異象確實受人的想法影響，那要如何在根本沒有接觸的時候，就--」
 
-「那這個你也察覺到了嗎」
-[[「我--」-&gt;E5]]</tw-passagedata><tw-passagedata pid="69" name="E5" tags="" position="3997.5,600" size="100,100">……以上。
+＞停下敘述，而$Name不發一語。
+
+「...你的說法像是我們從一開始就身處異象之中。」
+「所以-」
+
+可能是錯覺，但$Name的臉一瞬間出現了色偏與雜訊。
+
+[[「我-」-&gt;E5]]</tw-passagedata><tw-passagedata pid="69" name="E5" tags="" position="4801.5,996" size="100,100">……以上。
 
 這裡是æŸå€‹çµ„ç¹”，以上是我們到目前為止收集到的訊息。
 
 您現在看得到我們嗎？
 
-因為「異象」，我們不方便透過聲音與您聯絡，文字被視為較為安全的傳達方式。
+因為「異象」，我們不方便透過聲音與您聯絡，文字被視為較為安全且有效的傳達方式。
 
 你在長時間的異象接觸過程中，因為察覺部分真實導致症狀發作，當前情況已經被控制下來。
 
@@ -681,11 +750,11 @@ $Name沒有回答。
 ===&gt;
 
 (link: &quot;結束&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]
-(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="70" name="node 99" tags="" position="203,0" size="100,100">
+(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="70" name="node 99" tags="" position="639,420" size="100,100">
 晚安。
 
 (link-goto: &quot;睜眼&quot;, &quot;intro&quot;)
-(link: &quot;閉眼&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]</tw-passagedata><tw-passagedata pid="71" name="funeral_1" tags="" position="24,399" size="100,100">
+(link: &quot;閉眼&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]</tw-passagedata><tw-passagedata pid="71" name="funeral_1" tags="" position="460,819" size="100,100">
 
 他其實到現在還是想不起來現下到底發生了些什麼，他的腦袋被強迫塞了大量的雜訊，周遭人們髮絲和衣物磨擦的乾燥聲音幾乎要刺痛他的皮膚，腳下還帶著濕氣的泥地與劃過他踝側的草尖，明明是略帶著涼意的午後，他卻覺得他在僅存的陽光照耀下快要昏厥。
 
@@ -696,7 +765,7 @@ $Name沒有回答。
 
 [[「...」-&gt;guy]]
 
-</tw-passagedata><tw-passagedata pid="72" name="break" tags="" position="1803.5,96" size="100,100">
+</tw-passagedata><tw-passagedata pid="72" name="break" tags="" position="2239.5,516" size="100,100">
 
 ＞依然處於神游狀態。
 他原本以為因為不太記得意外當時發生的狀況，自然代表他對於整件事情的創傷就到此為止，但沒有想到的是當他再度碰到與事件相關的物品時，對他的影響會那麼顯著。
@@ -706,7 +775,7 @@ $Name沒有回答。
 
 ＞後來一邊清點他的作業內容，確定同事的工作時數，又花了十分鐘盯著那張小小的紙張，等到他從身體深處感到疲乏，他才決定離開，回到那個過於安靜的家。
 
-[[關燈，鎖門-&gt;gohome]]</tw-passagedata><tw-passagedata pid="73" name="gohome" tags="" position="2101.5,201" size="100,100">
+[[關燈，鎖門-&gt;gohome]]</tw-passagedata><tw-passagedata pid="73" name="gohome" tags="" position="2537.5,621" size="100,100">
 ＞在公車上搖搖晃晃，空落落的書包內部只裝了幾份還沒有整理完的資料，他將那隻張紅底的調查留存聯留在辦公室裏頭，他確實很好奇為什麼爸爸會拿著那本書，對於書本的內容也充滿了疑惑，但他不確定他會部會想要知道結果。
 
 萬一那本書內有爸爸意圖策反的資料、萬一那本書和圖書館高層的工作有絕大的關係、或是攝集什麼陰謀
@@ -719,7 +788,8 @@ $Name沒有回答。
 
 [[戴上耳機-&gt;gohome_1]]
 [[什麼都不做-&gt;listen＿１]]
-</tw-passagedata><tw-passagedata pid="74" name="danger_1" tags="" position="427,575" size="100,100">他看著那本書，手掌發顫。
+</tw-passagedata><tw-passagedata pid="74" name="danger_1" tags="" position="863,995" size="100,100">
+他看著那本書，手掌發顫。
 
 他看見的部分似乎是背面，暗紅色的皮革加上燙金邊線，看的出來價值不斐，這種程度的「實驗素材」不是通常只會出現在實驗室嗎？為什麼，會和爸爸的遺物一同被棄置於此？
 
@@ -727,7 +797,8 @@ $Name沒有回答。
 他在瞬間思緒被劈成兩半。
 
 [[將書翻面-&gt;flipover]]
-[[將書上報-&gt;report]]</tw-passagedata><tw-passagedata pid="75" name="※_1" tags="" position="201,402" size="100,100">「抱歉，我們這邊還在確定當時到底發生什麼事情，整件事情都太詭異了。」
+[[將書上報-&gt;report]]</tw-passagedata><tw-passagedata pid="75" name="※_1" tags="" position="637,822" size="100,100">
+「抱歉，我們這邊還在確定當時到底發生什麼事情，整件事情都太詭異了。」
 
 他也覺得，他開始抓回一點零零碎碎的記憶，像是當天是他難得與身為主管的爸爸一同出外勤，被指派去整理回收意外發現的一處住宅，裏頭藏有數十本陳舊的精裝書。
 
@@ -736,18 +807,18 @@ $Name沒有回答。
 「……我們剛剛清點完這次意外造成的損害，我順便幫你把你父親留在他辦公桌那邊的東西整理好了」對方拖過一個塞滿各種印著圖片和照片的紙張，一盆半死不活的盆栽和一個說不上是什麼動物的小型雕塑，還有一本紅色封面的精裝書本。
 他接過那個紙箱，上頭幾張紙因動作飄落，※趕在紙張掉落前伸手抓住，又因為腳上的傷差點跌倒，反倒翻倒手上那疊資料，他則在對方邊碎念邊撿拾資料的時候看見那個通紅的身影。
 
-[[&gt;-&gt;※_2]]</tw-passagedata><tw-passagedata pid="76" name="※_2" tags="" position="274,576" size="100,100">他的爸爸在圖書館中的職位是外勤部門的一個小主管，他身為基層員工，平時工作相關的事情一旦涉及上頭他也不好過問，但他記的很清楚，在圖書館內，無論身分，一率不得私藏書本，就算是最常直接接觸的研究人員也僅能在實驗室中取得文字樣本。
+[[&gt;-&gt;※_2]]</tw-passagedata><tw-passagedata pid="76" name="※_2" tags="" position="710,996" size="100,100">他的爸爸在圖書館中的職位是外勤部門的一個小主管，他身為基層員工，平時工作相關的事情一旦涉及上頭他也不好過問，但他記的很清楚，在圖書館內，無論身分，一率不得私藏書本，就算是最常直接接觸的研究人員也僅能在實驗室中取得文字樣本。
 
 ……為什麼爸爸的辦公桌上會搜出一本書？
 
 [[??-&gt;danger]]
-</tw-passagedata><tw-passagedata pid="77" name="flipover_1" tags="" position="554,401" size="100,100">
-這個東西相當危險，低語聲很快就消失，但那種縈繞在耳邊的吐息和，他下意識地縮回手，像是差點被燙到一樣。
+</tw-passagedata><tw-passagedata pid="77" name="flipover_1" tags="" position="1001,801" size="100,100">
+這個東西相當危險，低語聲很快就消失，但那種縈繞在耳邊的吐息和溫度無比真實，他下意識地縮回手，像是差點被燙到一樣。
 
 這個東西和爸爸的關係是什麼？爸爸是因為這本書才接觸到異像的嗎？爸爸又是在哪裡拿到的？他應該要直接上報的。一股寒意從他的脊背竄上，他將書本從其他雜物之中挑出。
 
 
-[[&gt;-&gt;report]]</tw-passagedata><tw-passagedata pid="78" name="openyoureyes" tags="" position="3700.5,1099" size="100,100">
+[[&gt;-&gt;report]]</tw-passagedata><tw-passagedata pid="78" name="openyoureyes" tags="" position="4136.5,1519" size="100,100">
 ＞緊閉雙眼。
 他感受到對方拿著什麼東西湊在他的眼前，紙張翻飛的聲音在他的耳邊打顫，他聽到那個總是伴隨著頭痛而來的聲音在他身旁低語。
 「...你看，從來沒有人在聽我講話，我叫他們自己看清楚，他們卻因為害怕而硬是要叫我形容給他們聽。」
@@ -792,7 +863,7 @@ $Name露出笑容。
 
 「你不會相信了吧？」
 [[「你說的是對的。」-&gt;true？]]
-(click-goto:?page,&quot;DE3&quot;)</tw-passagedata><tw-passagedata pid="79" name="closeyoureyes" tags="" position="3700.5,950" size="100,100">
+(click-goto:?page,&quot;DE3&quot;)</tw-passagedata><tw-passagedata pid="79" name="closeyoureyes" tags="" position="4136.5,1370" size="100,100">
 $Name手上拿著攤開的書本內頁，但裡頭一個字都沒有。
 那是單純的封底頁，＞透過輕薄的書頁可以看見紙張底下密密麻麻的文字筆跡，但跟著書頁的重疊，墨色混成大片的黑，無法辨認出任何東西。
 
@@ -804,7 +875,7 @@ $Name默默放下他手中的書本，他現在可以看見那本書封面畫著
 
 「你那本書給我。」$Name透過欄杆伸出手
 
-[[交給她-&gt;real?]]</tw-passagedata><tw-passagedata pid="80" name="real?" tags="" position="3900.5,925" size="100,100">
+[[交給她-&gt;real?]]</tw-passagedata><tw-passagedata pid="80" name="real?" tags="" position="4336.5,1345" size="100,100">
 時間過得很慢。
 $Name一頁一頁的翻著那本書，看到某處還會不小心笑出來。
 他耐心的等待。
@@ -819,7 +890,7 @@ $Name陷入沉默。
 「他自己沒有因此感染嗎？」
 「他顯然知道該相信什麼，也知道自己在面對的是什麼。」
 「...」
-「我講過了，」
+「我講過了，你們從來不知道自己在怕什麼。」
 一個他從未思考過得想法令他打了一個寒顫。
 
 
@@ -837,13 +908,13 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 
 他在昏迷之前，最後看見的是$Name瞳孔之中的光點。
 
-(click-goto:?page,&quot;true？&quot;)</tw-passagedata><tw-passagedata pid="81" name="del_1" tags="" position="2334.5,691" size="100,100">
+(click-goto:?page,&quot;true？&quot;)</tw-passagedata><tw-passagedata pid="81" name="del_1" tags="" position="2770.5,1111" size="100,100">
 一切歸於虛無。
 &gt;奮力的喘氣，氣管依然完好，背也如常的帶著微彎的角度支撐著他，他看向自己的手，只有被自己抓出的爪印。
 
 他深呼吸平復自己的心情，他知道他剛剛發生了什麼，但他不能就這樣放棄。
 
-[[把書塞進背包-&gt;gohome_0]]</tw-passagedata><tw-passagedata pid="82" name="listen＿１" tags="" position="2327.5,99" size="100,100">
+[[把書塞進背包-&gt;gohome_0]]</tw-passagedata><tw-passagedata pid="82" name="listen＿１" tags="" position="2763.5,518" size="100,100">(set: $sick to +10)
 公車司機明顯的嘖了一聲，但他也發現現場興致勃勃的人還不少。
 「...近期有人假扮成圖書館工作人員，潛入並試圖外洩有關近期造成三人死亡、七人重傷的意外的資料，在資料到手前被工作人員揭穿而被拘留數日。」
 「...因為造事者身分為當地有權有勢人家的兒子，他們召集人手到圖書館總部抗議，甚至演變成肢體衝突。造事者被放出來之後被發現有被下藥而意識昏迷，醒來後只記得片段記憶，這些片段記憶被其他人拼湊，去世的圖書館員工是為了揭發圖書館使用異像當生化武器的英雄，高層為了滅口而殺死他...」
@@ -852,8 +923,9 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 &gt;對內容嗤之以鼻，卻又不自覺被內容吸引。
 
 如果爸爸的死確實與某人的陰謀相關...
-
-[[＞-&gt;know]]</tw-passagedata><tw-passagedata pid="83" name="know" tags="" position="2600.5,98" size="100,100">
+(if:$sick &gt;= 20)[(align:&quot;&lt;==&quot;)+(box:&quot;X&quot;)[[[「   」 -&gt;DE0]]]]
+(else:)[(align:&quot;&lt;==&quot;)+(box:&quot;=X&quot;)[[[＞-&gt;know]]]]
+</tw-passagedata><tw-passagedata pid="83" name="know" tags="" position="3036.5,517" size="100,100">
 他看著手錶指針轉了半圈，車輪踩上社區門口的草皮時，他不自覺的嘆了口氣。
 天空逐漸染上橘黃，＞看見遠處的
 
@@ -861,7 +933,8 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 
 隨著下車的隊伍逐漸縮短，他把原本抱在懷中的背包甩回肩上，踩著疲憊的步伐踏上通往社區的小徑。
 
-[[&gt;-&gt;lib]]</tw-passagedata><tw-passagedata pid="84" name="lib" tags="" position="3487.5,164" size="100,100">生活一如既往的沉悶。
+[[&gt;-&gt;lib]]</tw-passagedata><tw-passagedata pid="84" name="lib" tags="" position="3923.5,584" size="100,100">
+生活一如既往的沉悶。
 灰濛濛的天空、蒼白的臉色、就連空間都像是附上了一層陳舊的塵埃。
 他依然在圖書館工作，
 
@@ -873,19 +946,21 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 
 直到某天，他的辦公桌上放著一份據說錄有調查結果的錄音檔。
 
-[[放入收音機，按下開關-&gt;answer?]]</tw-passagedata><tw-passagedata pid="85" name="answer?" tags="" position="3699.5,99" size="100,100">
+[[放入收音機，按下開關-&gt;answer?]]</tw-passagedata><tw-passagedata pid="85" name="answer?" tags="" position="4135.5,519" size="100,100">
 這是錄音檔，內容很長。
 
 大致敘述了意外的調查結果，以及關於那本書的描述。
 
 調查員透過書封面上的圖畫與內頁部分的插圖，經過專人比對，發現該本厚重的精裝書集有可能是數十年前記錄異象的紙本資料。
+
 當時可能還沒有確定傳播途徑，因此還在使用文字記載，並透過圖畫表示感染者的症狀與幻覺呈現，若能夠有相對應的安全措施可以好好解讀該本書的畫，對於現今異象研究進程可能會有相當大的幫助。
 
 編號為＿的員工似乎一直以來都對這本以文字記載「異象」的書本相當有興趣。
+
 據調查，該書於距今十三年前被圖書館收藏，但由於一直未有人對其內容感到興趣，亦非因造成意外而取得，因此長期以來一直被放置於資料室內，無人問津。
 
 您的父親在意外前被拍攝到曾經在辦公室錄音，但目前檔案毀損，無法解讀，但其內容極有可能和此次意外有相當關連性。
-&lt;a style=&quot;color:#03252D;&quot;&gt;(link:&quot;...&quot;)[
+&lt;a style=&quot;color:#03050D;&quot;&gt;(link:&quot;...&quot;)[
 &lt;b style=&quot;color:#5D7075;&quot;&gt;
 這裡是＿，你應該知道我是誰。
 如果...你能聽到這段錄音，代表你知道了某些東西，但錯過了...某些事情。
@@ -901,6 +976,7 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 我相信我的犧牲不會白費。
 若你能記起你是誰...
 ...若你能正視異象的本質，那再好不過。
+
 [[...-&gt;intro]]&lt;/b&gt;
 ===&gt;
 [[我記得-&gt;E5]]
@@ -908,6 +984,7 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 您的父親在症狀出現之後做了許多防護措施，包含嘗試將自己鎖於房內，阻止他人進入以免被他所傷，或是透過語言事前告知，但顯然他的努力並不成功。
 
 他違反了圖書館最核心的禁令，擅自在無安全措施的情況下進行研究，並造成難以彌補的傷害，我們難以從輕發落...即使他已經過世也一樣。
+
 我們必須扣留與他相關的一切資料，包含書以及他做出的解讀，但我們會以他現有的研究成果持續發展，他的科學精神仍然值得敬佩，圖書館不會讓他的犧牲白費。
 
 ...若有新的進展，我們會再與您聯絡。
@@ -917,27 +994,44 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 (link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)
 
 
-</tw-passagedata><tw-passagedata pid="86" name="true？" tags="" position="4397.5,1100" size="100,100">.....................................................................................................................
+</tw-passagedata><tw-passagedata pid="86" name="true？" tags="" position="4828.5,1521" size="100,100">陽光穿透眼皮在水晶體燒上熱辣的焦痕，手臂上傳來的刺痛迫使他深吸了一口氣。
+.....................................................................................................................
 .......................心跳........恢復.............
 ....你醒了嗎?........................
-.............我們.....這裡......他好像醒了......快點............................................................................................................搬運過來..........................................................................................
-..................................
+.............我們.....這裡......他好像醒了......快點............................................................................................................搬運過來................虹膜..........................................................................
+........反應正常...可以提早嘗試.......................
 ...............................................................
-
+....................
+...............收訊.....................................................................................
+...................................
+................................................
+.........................................
+...........................................................................................................................
+................
+....................
+.............
+.......
+....................
 ......你聽得清楚嗎?
 你看的到我嗎?我們在一處宅邸旁發現你，發現失去意識昏迷的你。
-...這很反常。
-你的手邊有兩本書籍，我們合理推測你應該是因為某種原因接觸到我們告知所有人的異象媒介後陷入發作，但你沒有
+
+而這很反常，相當反常。
+
+你的手邊有兩本書籍，我們合理推測你應該是因為某種原因接觸到我們告知所有人的異象媒介後陷入發作，但你沒有。
 ...你，在看書的時候發現了什麼?你看見了什麼?
+..........................
 你為什麼不說話？
 ......
 ............
+.........................................
+.......
 .........................
 ...你知道了多少？
 ...........................
 很抱歉，我們可能需要你跟我們來一趟。
+-------------------------------------------------------------------
 
-(link: &quot;跟上&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]</tw-passagedata><tw-passagedata pid="87" name="DE0" tags="" position="1018,650" size="100,100">
+(link: &quot;跟上&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]</tw-passagedata><tw-passagedata pid="87" name="DE0" tags="" position="2362,342" size="100,100">
 不知何處漂來的鐵銹味。
 &gt;低頭，看到鮮豔的紅色灑落。
 
@@ -949,10 +1043,10 @@ $Name的臉色第一次變得難看「你還要講下去嗎？」她又壓低音
 眼中是燦爛的星光炸裂，他像是碰觸到火焰感覺到灼傷，他的皮膚卻長出大片凍瘡，痛苦的窒息感隨即而上。
 
 他再也不知名為何物，他只知道他有滿腔怒火無處發洩，他伸展四肢，向前奔去。
-<!--github好難用-->
+
 ==&gt;
 (link: &quot;結束&quot;)[&lt;script&gt;window.close()&lt;/script&gt;]
-(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata></tw-storydata>
+(link-goto: &quot;重新回憶&quot;, &quot;intro&quot;)</tw-passagedata><tw-passagedata pid="88" name="vis" tags="" position="668,1210.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E4%B8%BB%E8%A6%96%E8%A6%BA%E4%B8%80.png&quot;&gt;</tw-passagedata><tw-passagedata pid="89" name="tombstone" tags="" position="788,1210.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E7%9F%B3%E7%A2%91.png&quot;&gt;</tw-passagedata><tw-passagedata pid="90" name="id" tags="" position="910,1211.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E8%AD%98%E5%88%A5%E8%AD%89.png&quot;&gt;</tw-passagedata><tw-passagedata pid="91" name="book" tags="" position="1036,1206.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E6%9B%B8.png&quot;&gt;</tw-passagedata><tw-passagedata pid="92" name="radio" tags="" position="1163,1203.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E6%94%B6%E9%9F%B3%E6%A9%9F.png&quot;&gt;</tw-passagedata><tw-passagedata pid="93" name="mansion image" tags="" position="1279,1208" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E5%AE%85%E9%82%B8.png&quot;&gt;</tw-passagedata><tw-passagedata pid="94" name="bookcase" tags="" position="1382,1206.5999755859375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/cw-hsiao/images/main/images/%E6%9B%B8%E6%9E%B6.png&quot;&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
